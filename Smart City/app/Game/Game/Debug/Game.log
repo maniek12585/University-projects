@@ -1,0 +1,10 @@
+﻿  controller.cpp
+g:\githubrepos\projekt\game\game\controller.cpp(72): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(122): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(202): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(219): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(221): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(292): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(307): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+g:\githubrepos\projekt\game\game\controller.cpp(262): warning C4715: "controller::getPosXAndYByIndex”: niewszystkie ścieżki kodu zwracają wartość
+  Game.vcxproj -> G:\GithubRepos\Projekt\Game\Debug\Game.exe

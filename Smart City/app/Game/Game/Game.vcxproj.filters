@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f967871a-9022-4675-aae5-c716cd98218b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{8a4e58eb-6e53-46f5-a5ab-eb6ff3e938e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{93bc2e63-07f0-463a-bef6-4098ec1aa61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\mainClasses">
+      <UniqueIdentifier>{886dcbcd-f351-47bf-b913-ac912b090a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\mainClasses\headers">
+      <UniqueIdentifier>{65d49512-b98d-41e0-88d1-cb9851e6aa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\mainClasses\source">
+      <UniqueIdentifier>{2908e91d-be68-4f49-86c9-9a165266b076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\headers">
+      <UniqueIdentifier>{739c395c-bb2f-4cac-a824-174be6540416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\source">
+      <UniqueIdentifier>{649f8dfa-21a3-4289-9784-f39eaa2dea61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\headers">
+      <UniqueIdentifier>{e74145b6-8c32-43d8-b39c-3a99e13f7e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\source">
+      <UniqueIdentifier>{9fd5dbc5-60db-49e3-a95c-f6bb7c535074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Object List">
+      <UniqueIdentifier>{6a336f13-787c-4dca-9969-bcfc9e04ec6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>View\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>View\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="eventMenager.cpp">
+      <Filter>Controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Model\mainClasses\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjList.cpp">
+      <Filter>Model\Object List</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Model\mainClasses\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Model\mainClasses\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Model\mainClasses\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMenager.h">
+      <Filter>Controller\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Model\mainClasses\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>View\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>View\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Controller\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="eventMenager.h">
+      <Filter>Controller\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Controller\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="listElem.h">
+      <Filter>Model\Object List</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjList.h">
+      <Filter>Model\Object List</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Model\mainClasses\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
